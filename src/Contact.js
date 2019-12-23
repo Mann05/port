@@ -50,12 +50,15 @@ const Contact =()=>{
                     </div>
                     <aside class="four columns footer-widgets">
                         <div class="widget widget_contact">
-                            <h4>Address and Phone</h4>
+                            <h2>Contact Details</h2>
                             <p class="address">
-                                Jonathan Doe<br/>
-                                1600 Amphitheatre Parkway <br/>
-                                Mountain View, CA 94043 US<br/>
-                                <span>(123) 456-7890</span>
+                                <span>Aikansh Mann</span><br/>
+                                {/* <span>1600 Amphitheatre Parkway<br/>
+                                    Mountain View, CA 94043 US
+                                    </span><br/> */}
+                                <span>
+                            <a href="tel:9729112221"> (972)911-2221</a></span><br/>
+                            <span><a href="mailto:aikanshmann@gmail.com"> aikanshmann@gmail.com</a></span>
                             </p>
                         </div>
                         <div class="widget widget_tweets">
