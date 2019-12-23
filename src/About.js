@@ -31,7 +31,7 @@ const AboutUs = ()=>{
                     </div>
                     <div class="columns download">
                         <p>
-                        <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                        <a href="!#" rel="noopener noreferrer" class="button"><i class="fa fa-download"></i>Download Resume</a>
                         </p>
                     </div>
                 </div>

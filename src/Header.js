@@ -1,12 +1,11 @@
 import React,{Fragment} from 'react';
-
 const Header =()=>{
     return(
         <Fragment>
              <header id="home">
                 <nav id="nav-wrap">
                 <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-                <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+                <a class="mobile-btn" href="!#" rel="noopener noreferrer" title="Hide navigation">Hide navigation</a>
                 <ul id="nav" class="nav">
                     <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
                     <li><a class="smoothscroll" href="#about">About</a></li>
@@ -24,12 +23,12 @@ const Header =()=>{
                     and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
                     <hr />
                     <ul class="social">
-                        <li><a href="#" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://stackoverflow.com/users/6578251/aikansh-mann" rel="noopener noreferrer" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+                        <li><a href="https://github.com/mann05" rel="noopener noreferrer" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li><a href="!#" rel="noopener noreferrer" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="!#" rel="noopener noreferrer" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="!#" rel="noopener noreferrer" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="!#" rel="noopener noreferrer" target="_blank"><i class="fa fa-dribbble"></i></a></li>
                         <li><a href="skype:aikanshmann05@outlook.com"><i class="fa fa-skype"></i></a></li>
                     </ul>
                 </div>

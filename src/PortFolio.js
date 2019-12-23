@@ -10,7 +10,7 @@ const Portfolio =()=>{
                     <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
                         <div class="columns portfolio-item">
                             <div class="item-wrap">
-                            <a href="#modal-01" title="">
+                            <a href="#modal-01" title="" rel="noopener noreferrer">
                                 <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/coffee.jpg"}/>
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -24,7 +24,7 @@ const Portfolio =()=>{
                         </div>
                         <div class="columns portfolio-item">
                             <div class="item-wrap">
-                            <a href="#modal-02" title="">
+                            <a href="#modal-02" title="" rel="noopener noreferrer">
                                 <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/console.jpg"}/>
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
@@ -130,8 +130,8 @@ const Portfolio =()=>{
                         <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
                     </div>
                     <div class="link-box">
-                        <a href="http://www.behance.net" target="_blank">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
+                        <a href="http://www.behance.net" target="_blank" rel="noopener noreferrer">Details</a>
+                    <button class="popup-modal-dismiss" data-dismiss="modal">Close</button>
                     </div>
                 </div>
                 <div id="modal-02" class="popup-modal mfp-hide">
@@ -142,8 +142,8 @@ const Portfolio =()=>{
                         <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
                     </div>
                     <div class="link-box">
-                        <a href="http://www.behance.net" target="_blank">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
+                        <a href="http://www.behance.net" target="_blank" rel="noopener noreferrer">Details</a>
+                        <button class="popup-modal-dismiss" data-dismiss="modal">Close</button>
                     </div>
                 </div>
                 <div id="modal-03" class="popup-modal mfp-hide">
@@ -154,8 +154,8 @@ const Portfolio =()=>{
                         <span class="categories"><i class="fa fa-tag"></i>Branding</span>
                     </div>
                     <div class="link-box">
-                        <a href="http://www.behance.net" target="_blank">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
+                        <a href="http://www.behance.net" target="_blank" rel="noopener noreferrer">Details</a>
+                        <button class="popup-modal-dismiss" data-dismiss="modal">Close</button>
                     </div>
                 </div>
                 <div id="modal-04" class="popup-modal mfp-hide">
@@ -166,8 +166,8 @@ const Portfolio =()=>{
                         <span class="categories"><i class="fa fa-tag"></i>Photography</span>
                     </div>
                     <div class="link-box">
-                        <a href="http://www.behance.net" target="_blank">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
+                        <a href="http://www.behance.net" target="_blank" rel="noopener noreferrer">Details</a>
+                        <button class="popup-modal-dismiss" data-dismiss="modal">Close</button>
                     </div>
                 </div>
                 <div id="modal-05" class="popup-modal mfp-hide">
@@ -178,8 +178,8 @@ const Portfolio =()=>{
                         <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
                     </div>
                     <div class="link-box">
-                        <a href="http://www.behance.net" target="_blank">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
+                        <a href="http://www.behance.net" target="_blank" rel="noopener noreferrer">Details</a>
+                        <button class="popup-modal-dismiss" data-dismiss="modal">Close</button>
                     </div>
                 </div>
                 <div id="modal-06" class="popup-modal mfp-hide">
@@ -190,8 +190,8 @@ const Portfolio =()=>{
                         <span class="categories"><i class="fa fa-tag"></i>Photography</span>
                     </div>
                     <div class="link-box">
-                        <a href="http://www.behance.net" target="_blank">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
+                        <a href="http://www.behance.net" target="_blank" rel="noopener noreferrer">Details</a>
+                        <button class="popup-modal-dismiss" data-dismiss="modal">Close</button>
                     </div>
                 </div>
                 <div id="modal-07" class="popup-modal mfp-hide">
@@ -202,8 +202,8 @@ const Portfolio =()=>{
                         <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
                     </div>
                     <div class="link-box">
-                        <a href="http://www.behance.net" target="_blank">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
+                        <a href="http://www.behance.net" target="_blank" rel="noopener noreferrer">Details</a>
+                        <button class="popup-modal-dismiss" data-dismiss="modal">Close</button>
                     </div>
                 </div>
                 <div id="modal-08" class="popup-modal mfp-hide">
@@ -214,8 +214,8 @@ const Portfolio =()=>{
                         <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
                     </div>
                     <div class="link-box">
-                        <a href="http://www.behance.net" target="_blank">Details</a>
-                    <a class="popup-modal-dismiss">Close</a>
+                        <a href="http://www.behance.net" target="_blank" rel="noopener noreferrer">Details</a>
+                        <button class="popup-modal-dismiss" data-dismiss="modal">Close</button>
                     </div>
                 </div>
                 </div>
