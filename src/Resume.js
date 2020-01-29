@@ -12,25 +12,23 @@ const Resume =()=>{
             <div class="nine columns main-col">
                 <div class="row item">
                     <div class="twelve columns">
-                        <h3>University of Life</h3>
-                        <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p>
+                        <h3>Krurkshetra University(RPIIT), Karnal</h3>
+                        <p class="info">B.Tech <span>&bull;</span> <em class="date">August 2011 - June 2015</em></p>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         </p>
                     </div>
                 </div>
                 <div class="row item">
                     <div class="twelve columns">
-                        <h3>School of Cool Designers</h3>
-                        <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
+                        <h3>S.B.S Sr. Sec. School, Karnal</h3>
+                        <p class="info">10th <span>&bull;</span> <em class="date">2007-2009</em></p>
                         <p>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                        ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                        This is Photoshop's version  of Lorem Ipsum.
+                        </p>
+                        <p class="info">12th <span>&bull;</span> <em class="date">2009-2011</em></p>
+                        <p>
+                        This is Photoshop's version  of Lorem Ipsum.
                         </p>
                     </div>
                 </div>
@@ -43,25 +41,19 @@ const Resume =()=>{
             <div class="nine columns main-col">
                 <div class="row item">
                     <div class="twelve columns">
-                        <h3>Awesome Design Studio</h3>
-                        <p class="info">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
+                        <h3><a href="https://akalinfosys.com/" target="_blank"> Akal Information Systems Ltd.</a></h3>
+                        <p class="info">Software Developer <span>&bull;</span> <em class="date">September 2019 - Present</em></p>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         </p>
                     </div>
                 </div>
                 <div class="row item">
                     <div class="twelve columns">
-                        <h3>Super Cool Studio</h3>
-                        <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
+                        <h3><a href="http://champcash.com/" target="_blant"> Champion Networks Pvt. Ltd.</a></h3>
+                        <p class="info">Software Developer <span>&bull;</span> <em class="date">May 2016 - August 2019</em></p>
                         <p>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                        ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                        This is Photoshop's version  of Lorem Ipsum.
                         </p>
                     </div>
                 </div>
@@ -80,12 +72,13 @@ const Resume =()=>{
                 </p>
             <div class="bars">
                 <ul class="skills">
-                <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-                        <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
-                <li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
-                <li><span class="bar-expand css"></span><em>CSS</em></li>
-                <li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                        <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+                    <li><span class="bar-expand photoshop"></span><em>ASP.Net(Webforms, MVC, Web API 2.0)</em></li>
+                    <li><span class="bar-expand illustrator"></span><em>MySql</em></li>
+                    <li><span class="bar-expand wordpress"></span><em>Sql Server</em></li>
+                    <li><span class="bar-expand css"></span><em>Node.js</em></li>
+                    <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                    <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+                    <li><span class="bar-expand html5"></span><em>CSS</em></li>
                 </ul>
             </div>
             </div>

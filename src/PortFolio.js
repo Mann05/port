@@ -11,11 +11,11 @@ const Portfolio =()=>{
                         <div class="columns portfolio-item">
                             <div class="item-wrap">
                             <a href="#modal-01" title="" rel="noopener noreferrer">
-                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/coffee.jpg"}/>
+                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/hrms.jpg"}/>
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                    <h5>Coffee</h5>
-                                        <p>Illustrration</p>
+                                    <h5>HRMS</h5>
+                                    <p>Human Resource Management System Punjab( Akal Information Solution Ltd.)</p>
                                 </div>
                                 </div>
                                 <div class="link-icon"><i class="icon-plus"></i></div>
@@ -25,11 +25,26 @@ const Portfolio =()=>{
                         <div class="columns portfolio-item">
                             <div class="item-wrap">
                             <a href="#modal-02" title="" rel="noopener noreferrer">
-                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/console.jpg"}/>
+                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/champcash.png"}/>
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                    <h5>Console</h5>
-                                        <p>Web Development</p>
+                                    <h5>Champcash</h5>
+                                    <p>Champion Networks Pvt. Ltd.</p>
+                                </div>
+                                </div>
+                                <div class="link-icon"><i class="icon-plus"></i></div>
+                            </a>
+                            </div>
+                        </div>
+                        
+                        <div class="columns portfolio-item">
+                            <div class="item-wrap">
+                            <a href="#modal-04" title="">
+                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/Statusbook.jpg"}/>
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                    <h5>Status Book</h5>
+                                    <p></p>
                                 </div>
                                 </div>
                                 <div class="link-icon"><i class="icon-plus"></i></div>
@@ -39,25 +54,11 @@ const Portfolio =()=>{
                         <div class="columns portfolio-item">
                             <div class="item-wrap">
                             <a href="#modal-03" title="">
-                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/judah.jpg"}/>
+                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/themannu.jpg"}/>
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                    <h5>Judah</h5>
-                                        <p>Webdesign</p>
-                                </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-                            </div>
-                        </div>
-                        <div class="columns portfolio-item">
-                            <div class="item-wrap">
-                            <a href="#modal-04" title="">
-                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/into-the-light.jpg"}/>
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                    <h5>Into The Light</h5>
-                                        <p>Photography</p>
+                                    <h5>The Mannu</h5>
+                                    <p>Champion Networks Pvt. Ltd.</p>
                                 </div>
                                 </div>
                                 <div class="link-icon"><i class="icon-plus"></i></div>
@@ -67,46 +68,19 @@ const Portfolio =()=>{
                         <div class="columns portfolio-item">
                             <div class="item-wrap">
                             <a href="#modal-05" title="">
-                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/farmerboy.jpg"}/>
+                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/shopycash.jpg"}/>
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                    <h5>Farmer Boy</h5>
-                                        <p>Branding</p>
+                                    <h5>Shopy Cash</h5>
+                                    <p>Branding</p>
                                 </div>
                                 </div>
                                 <div class="link-icon"><i class="icon-plus"></i></div>
                             </a>
                             </div>
                         </div>
-                        <div class="columns portfolio-item">
-                            <div class="item-wrap">
-                            <a href="#modal-06" title="">
-                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/girl.jpg"}/>
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                    <h5>Girl</h5>
-                                        <p>Photography</p>
-                                </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-                            </div>
-                        </div>
-                        <div class="columns portfolio-item">
-                            <div class="item-wrap">
-                            <a href="#modal-07" title="">
-                                <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/origami.jpg"}/>
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                    <h5>Origami</h5>
-                                        <p>Illustrration</p>
-                                </div>
-                                </div>
-                                <div class="link-icon"><i class="icon-plus"></i></div>
-                            </a>
-                            </div>
-                        </div>
-                        <div class="columns portfolio-item">
+                        
+                        {/* <div class="columns portfolio-item">
                             <div class="item-wrap">
                             <a href="#modal-08" title="">
                                 <img alt="" src={process.env.PUBLIC_URL + "/assets/images/portfolio/retrocam.jpg"}/>
@@ -119,13 +93,13 @@ const Portfolio =()=>{
                                 <div class="link-icon"><i class="icon-plus"></i></div>
                             </a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div id="modal-01" class="popup-modal mfp-hide">
-                    <img class="scale-with-grid" src={process.env.PUBLIC_URL + "/assets/images/portfolio/modals/m-coffee.jpg"} alt="" />
+                    <img class="scale-with-grid" src={process.env.PUBLIC_URL + "/assets/images/portfolio/hrms.jpg"} alt="" />
                     <div class="description-box">
-                    <h4>Coffee Cup</h4>
+                    <h4>HRMS - Human Resource Management System, Punjab</h4>
                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                         <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
                     </div>
@@ -135,9 +109,9 @@ const Portfolio =()=>{
                     </div>
                 </div>
                 <div id="modal-02" class="popup-modal mfp-hide">
-                    <img class="scale-with-grid" src={process.env.PUBLIC_URL + "/assets/images/portfolio/modals/m-console.jpg"} alt="" />
+                    <img class="scale-with-grid" src={process.env.PUBLIC_URL + "/assets/images/portfolio/champcash.jpg"} alt="" />
                     <div class="description-box">
-                    <h4>Console</h4>
+                    <h4>CHAMPCASH</h4>
                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                         <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
                     </div>
@@ -149,7 +123,7 @@ const Portfolio =()=>{
                 <div id="modal-03" class="popup-modal mfp-hide">
                     <img class="scale-with-grid" src={process.env.PUBLIC_URL + "/assets/images/portfolio/modals/m-judah.jpg"} alt="" />
                     <div class="description-box">
-                    <h4>Judah</h4>
+                    <h4>THE  MANNU</h4>
                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                         <span class="categories"><i class="fa fa-tag"></i>Branding</span>
                     </div>
@@ -161,7 +135,7 @@ const Portfolio =()=>{
                 <div id="modal-04" class="popup-modal mfp-hide">
                     <img class="scale-with-grid" src={process.env.PUBLIC_URL + "/assets/images/portfolio/modals/m-intothelight.jpg"} alt="" />
                     <div class="description-box">
-                    <h4>Into the Light</h4>
+                    <h4>STATUS BOOK</h4>
                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                         <span class="categories"><i class="fa fa-tag"></i>Photography</span>
                     </div>
@@ -173,7 +147,7 @@ const Portfolio =()=>{
                 <div id="modal-05" class="popup-modal mfp-hide">
                     <img class="scale-with-grid" src={process.env.PUBLIC_URL + "/assets/images/portfolio/modals/m-farmerboy.jpg"} alt="" />
                     <div class="description-box">
-                    <h4>Farmer Boy</h4>
+                    <h4>SHOPYCASH</h4>
                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                         <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
                     </div>
