@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter  as Router,Route } from 'react-router-dom';
 import './App.css';
 import Header from './Header';
 import AboutUs from './About';
@@ -10,16 +11,23 @@ import CallToAction from './CallToAction';
 import Contact from './Contact';
 function App() {
   return (
+    <Router>
     <div className="App">
       <Header/>
-      <AboutUs/>
-      <Resume/>
-      <Portfolio/>
-      <CallToAction/>
-      <Testimonial/>
-      <Contact/>
+      <Route exact path="/">
+        <AboutUs/>
+        <Resume/>
+        <Portfolio/>
+        <CallToAction/>
+        <Testimonial/>
+        <Contact/>
+      </Route>
+      <Route exact path="/detail">
+        <Contact/>
+      </Route>
       <Footer/>
     </div>
+    </Router>
   );
 }
 
