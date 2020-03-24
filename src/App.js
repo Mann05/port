@@ -14,17 +14,12 @@ function App() {
     <Router>
     <div className="App">
       <Header/>
-      <Route exact path="/">
         <AboutUs/>
         <Resume/>
         <Portfolio/>
         <CallToAction/>
         <Testimonial/>
         <Contact/>
-      </Route>
-      <Route exact path="/detail">
-        <Contact/>
-      </Route>
       <Footer/>
     </div>
     </Router>
